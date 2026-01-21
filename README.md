@@ -6,10 +6,12 @@
 Create a `.env` file in the server directory with the following variables:
 
 ```
-MONGO_URI=mongodb://localhost:27017/daawat-e-ishq
-JWT_SECRET=your-super-secret-jwt-key-here
+MONGO_URI=mongodb+srv://soumyo8317_db_user:JPkxzK66EuSqhAGC@cluster0.3zqzish.mongodb.net/daawat-e-ishq?retryWrites=true&w=majority
+JWT_SECRET=d7349e30526816b71c85e83daa70f9dc3da69f470ec6ebba508f5db3802b82506e39c5f4b521b3ba9154f072c5e172b9f48439931a544a35e5c7c28c007a4deb
 PORT=5000
 NODE_ENV=development
+FRONTEND_URL=https://daawat-e-ishq-frontend.vercel.app
+GOOGLE_CLIENT_ID=258365914995-g3taerkv9uu556871to1fu5qd1to88sr.apps.googleusercontent.co
 ```
 
 ### 2. Install Dependencies 
@@ -30,7 +32,7 @@ This will create an admin user with:
 
 ### 5. Start the Server
 ```bash
-npm run dev
+npm start
 ```
 
 ## Admin Features
